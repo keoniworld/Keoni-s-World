@@ -1,0 +1,170 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: black;
+	min-width: 1000px;
+}
+
+
+#stars
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+#magic
+{
+	position: absolute;
+	background: url(../imgs/black.png) repeat;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	-webkit-animation: doTheMagic 200s linear infinite;
+	animation: doTheMagic 200s linear infinite;
+	
+}
+
+@-webkit-keyframes doTheMagic
+{
+	from {
+		background-position: 0 0;
+	}
+    to {
+		background-position: -5000px 5000px;
+	}
+}
+	
+@keyframes doTheMagic
+{
+    from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -5000px 5000px;
+	}
+}
+
+@-webkit-keyframes moveLeft
+{
+	from {
+		background-position: 0 0;
+	}
+    to {
+		background-position: -2000px 0;
+	}
+}
+	
+@keyframes moveLeft
+{
+	from {
+		background-position: 0 0;
+	}
+    to {
+		background-position: -2000px 0;
+	}
+}
+
+@-webkit-keyframes moveRight
+{
+	from {
+		background-position: 0 0;
+	}
+    to {
+		background-position: 2000px 0;
+	}
+}
+	
+@keyframes moveRight
+{
+	from {
+		background-position: 0 0;
+	}
+    to {
+		background-position: 2000px 0;
+	}
+}
+
+
+/* From here, there are styles for preview page*/
+#main
+{
+	position: relative;
+	margin: 10%;
+	padding: 3%;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.3);
+	text-align: justify;
+	display: block;
+	overflow: hidden;
+}
+
+#features
+{
+	margin-top: 5%;
+}
+
+h1
+{
+	text-align: center;
+	width: 100%;
+}
+
+select, input
+{
+	float: right;
+	width: 50%;
+	border: 1px solid black;
+	padding: 1%;
+}
+
+option
+{
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+input
+{
+	width: 48%;
+}
+
+.bar
+{
+	margin-top: 5%;
+}
+
+#end
+{
+	width: 100%;
+}
+
+#end img
+{
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+}
+
+span
+{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 100%;
+	text-align: center;
+}
+
+
